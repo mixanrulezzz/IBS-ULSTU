@@ -1,0 +1,14 @@
+*.iml
+
+*.class
+overlays/*
+*/target
+*/target/*
+.idea/*
+.svn/*
+/WEB-INF/jetty-env.xml
+/target/
+/.settings/
+/.classpath
+/.project
+/.springBeans
