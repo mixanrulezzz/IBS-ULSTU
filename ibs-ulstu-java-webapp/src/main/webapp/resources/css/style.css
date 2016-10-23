@@ -1,12 +1,6 @@
 #mainDiv{
 	height: 100vh;	
 }
-.headerCt{
-	height: 100px;
-    background-image: url(../images/header/bgDraft.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 
 .leftMenuCt{
 	float: left;

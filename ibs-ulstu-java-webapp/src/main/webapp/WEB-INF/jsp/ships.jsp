@@ -6,8 +6,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
-	<title><%=titleCabinetName%> - Реестр судов</title>	
-	<link rel="stylesheet" href="resources/css/style.css"/>
+	<title><%=titleCabinetName%> - Реестр судов</title>
 	<%@include  file="imports.jsp"%>
 	<script type="application/javascript">
 		Ext.application({
