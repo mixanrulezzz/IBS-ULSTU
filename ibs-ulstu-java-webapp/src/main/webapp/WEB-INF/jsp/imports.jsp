@@ -4,5 +4,3 @@
 <script type="application/javascript" src="resources/js/ext-all.js"></script>
 <script type="application/javascript" src="resources/js/ext-locale-ru.js"></script>
 <link rel="stylesheet" href="resources/themes/theme-neptune/resources/theme-neptune-all.css"/>
-<link rel="stylesheet" href="resources/css/style.css"/>
-<link rel="stylesheet" href="resources/css/header.css"/>
