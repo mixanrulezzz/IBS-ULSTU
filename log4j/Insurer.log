@@ -1,0 +1,34 @@
+2016-10-31 17:32:59 INFO : org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2016-10-31 17:32:59 INFO : org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2016-10-31 17:33:00 INFO : org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Oct 31 17:33:00 GMT+04:00 2016]; root of context hierarchy
+2016-10-31 17:33:00 INFO : org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Oct 31 17:33:00 GMT+04:00 2016]; root of context hierarchy
+2016-10-31 17:33:00 INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2016-10-31 17:33:00 INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2016-10-31 17:33:00 INFO : org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1118 ms
+2016-10-31 17:33:00 INFO : org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1118 ms
+2016-10-31 17:33:01 INFO : org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+2016-10-31 17:33:01 INFO : org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+2016-10-31 17:33:01 INFO : org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Oct 31 17:33:01 GMT+04:00 2016]; parent: Root WebApplicationContext
+2016-10-31 17:33:01 INFO : org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Oct 31 17:33:01 GMT+04:00 2016]; parent: Root WebApplicationContext
+2016-10-31 17:33:01 INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2016-10-31 17:33:01 INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2016-10-31 17:33:01 INFO : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/shipDetails]}" onto public java.lang.String ru.ibs.ulstu.webapp.more.controller.navigation.NavigationController.shipDetails()
+2016-10-31 17:33:01 INFO : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/shipDetails]}" onto public java.lang.String ru.ibs.ulstu.webapp.more.controller.navigation.NavigationController.shipDetails()
+2016-10-31 17:33:01 INFO : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ships]}" onto public java.lang.String ru.ibs.ulstu.webapp.more.controller.navigation.NavigationController.ships()
+2016-10-31 17:33:01 INFO : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ships]}" onto public java.lang.String ru.ibs.ulstu.webapp.more.controller.navigation.NavigationController.ships()
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Oct 31 17:33:01 GMT+04:00 2016]; parent: Root WebApplicationContext
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Oct 31 17:33:01 GMT+04:00 2016]; parent: Root WebApplicationContext
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Oct 31 17:33:01 GMT+04:00 2016]; parent: Root WebApplicationContext
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Oct 31 17:33:01 GMT+04:00 2016]; parent: Root WebApplicationContext
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/app/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/app/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 1639 ms
+2016-10-31 17:33:02 INFO : org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 1639 ms
+2016-10-31 17:35:04 WARN : org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/webapp-more/] in DispatcherServlet with name 'dispatcher'
+2016-10-31 17:35:04 WARN : org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/webapp-more/] in DispatcherServlet with name 'dispatcher'
+2016-10-31 17:39:01 WARN : org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/webapp-more/api/rest/documents/instructions/pdf] in DispatcherServlet with name 'dispatcher'
+2016-10-31 17:39:01 WARN : org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/webapp-more/api/rest/documents/instructions/pdf] in DispatcherServlet with name 'dispatcher'
+2016-10-31 17:39:08 WARN : org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/webapp-more/lk] in DispatcherServlet with name 'dispatcher'
+2016-10-31 17:39:08 WARN : org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/webapp-more/lk] in DispatcherServlet with name 'dispatcher'
