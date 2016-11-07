@@ -5,6 +5,17 @@ Ext.define('More.view.ships.ShipsGrid', {
     alias: 'widget.shipsgrid',
     store: 'More.store.Ship',
     columns : [],
+
+    dockedItems:
+    [
+        { xtype: 'pagingtoolbar',
+            dock: 'bottom',
+            displayMsg: '{0} - {1} of {2}',
+            emptyMsg: 'No data to display',
+            store: 'More.store.Ship'
+        }
+    ],
+
     initComponent: function(arguments){
             this.columns = [{
                          header: 'Флаг',
@@ -42,7 +53,7 @@ Ext.define('More.view.ships.ShipsGrid', {
                          sortable : false,
                          flex:1
                         }];
-            this.dockedItems = [];
+
           this.callParent(arguments);
 
        }
